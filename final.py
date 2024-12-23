@@ -7,7 +7,6 @@ import pyttsx3
 
 # ---- This section takes the words in the pdf and scrapes it so that it is a string of words ----
 # pip install PyPDF2
-
 def extractTextFromPdf(pdfFile: str):
     #extractTexrFromPdf function adapted from https://www.youtube.com/watch?v=RULkvM7AdzY
     # this functions takes in pdf file and returns string with the text from the PDF
